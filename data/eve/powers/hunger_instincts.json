@@ -1,0 +1,22 @@
+{
+    "type": "origins:entity_glow",
+    "name": "Hunger insticts",
+    "description": "if your hunger goes into the non sprint area food in a 32 block radius will be marked",
+
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 32
+    },
+    
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": "<=",
+        "compare_to": 7
+    },
+    
+    "use_teams": false,
+    "red": 0.2,
+    "green": 0.0,
+    "blue": 0.2
+}

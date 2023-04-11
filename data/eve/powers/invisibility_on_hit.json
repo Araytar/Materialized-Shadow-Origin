@@ -1,0 +1,9 @@
+{
+	"type": "origins:self_action_when_hit",
+	"hidden": true,
+	"entity_action": {
+		"type": "origins:trigger_cooldown",
+		"power": "eve:invisibility_cooldown"
+	},
+	"cooldown": 0
+}

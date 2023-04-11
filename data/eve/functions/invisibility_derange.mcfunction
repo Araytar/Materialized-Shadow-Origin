@@ -1,0 +1,3 @@
+execute as @e[type=!minecraft:player,type=!minecraft:wither,type=!minecraft:ender_dragon,distance=..32] run attribute @s minecraft:generic.follow_range base set 2
+execute as @e[type=!minecraft:player,type=!minecraft:wither,type=!minecraft:ender_dragon,distance=32..,type=!minecraft:zombie] run attribute @s minecraft:generic.follow_range base set 16
+execute as @e[distance=32..,type=minecraft:zombie] run attribute @s minecraft:generic.follow_range base set 32

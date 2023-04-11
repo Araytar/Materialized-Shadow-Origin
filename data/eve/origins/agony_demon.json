@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"eve:invisibility_when_hit",
+		"eve:invisibility_on_hit",
+		"eve:invisibility_effect",
+		"eve:invisibility_effect_hide",
+		"eve:invisibility_peffects",
+		"eve:invisibility_cooldown",
+		"eve:invisibility_detection",
+		"eve:invisibility_detection_drop",
+		"eve:feed_on_agony",
+		"eve:prevent_food",
+		"eve:claws",
+		"eve:nametag_hide",
+		"eve:fire_immunity",
+		"eve:night_vision",
+		"eve:weakness_day",
+		"eve:hunger_instincts",
+		"eve:prevent_sleep",
+		"origins:nether_spawn"
+	],
+	"icon": {
+		"item": "minecraft:black_wool"
+	},
+	"order": 10,
+	"impact": 3,
+	"name": "Materalized shadow",
+	"description": "A materalized shadow is a demon that feeds from the pain from others."
+}

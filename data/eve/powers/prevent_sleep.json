@@ -1,0 +1,6 @@
+{
+    "type": "origins:prevent_sleep",
+    "name": "Nocturnal",
+    "description": "Because you are nocturnal you can't sleep under any cicumstances",
+    "message": "you can't sleep because you are nocturnal"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "origins:self_action_on_hit",
+    "name": "Tasty Agony",
+    "description": "you can not eat normal food, you may only feed on the pain of other beings inflicted by your claws",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:air"
+            }
+        }
+    },
+    "entity_action": {
+        "type": "origins:feed",
+        "saturation": 1,
+        "food": 2
+    },
+    "cooldown": 0
+}

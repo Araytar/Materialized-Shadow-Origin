@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Weakening Sun",
+    "description": "Because you litterally are the shadow the sun makes you weaker and you can't do heavy mining during sun exposure",
+
+    "condition": {
+        "type": "origins:exposed_to_sun",
+        "inverted": false
+    },
+    
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:mining_fatigue 2 1 true"
+    },
+    "interval": 20
+}

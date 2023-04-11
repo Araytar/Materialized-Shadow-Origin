@@ -1,0 +1,19 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "claws",
+  "description": "where your fingers should be you have sharp claws that deal the same damage as an average sword",
+  "modifier": {
+    "value": 8,
+    "operation": "addition"
+  },
+  "condition": {
+	  "type": "origins:equipped_item",
+	  "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:air"
+      }
+    }
+  }
+}

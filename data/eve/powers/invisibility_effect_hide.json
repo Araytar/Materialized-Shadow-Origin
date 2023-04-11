@@ -1,0 +1,19 @@
+{
+    "hidden": true,
+    "type": "origins:prevent_feature_render",
+    "features": [
+        "armor",
+        "cape",
+        "held_item",
+        "elytra",
+        "trident_riptide",
+        "stuck_objects"
+    ],
+
+    "condition": {
+        "type": "origins:resource",
+        "resource":"*:invisibility_cooldown",
+        "comparison": "==",
+        "compare_to": 0
+    }
+}

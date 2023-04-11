@@ -1,0 +1,16 @@
+{
+    "name": "Shadow form",
+    "description": "When you are out of combat you will transform into a shadow to be more flexible, while you are in your shadow form you regenerate health faster and mobs are less likeley to detect you.",
+    "type": "origins:model_color",
+    "red": 0.0,
+    "green": 0.0,
+    "blue": 0.0,
+    "alpha": 0.11,
+
+    "condition": {
+        "type": "origins:resource",
+        "resource":"eve:invisibility_cooldown",
+        "comparison": "==",
+        "compare_to": 0
+    }
+}

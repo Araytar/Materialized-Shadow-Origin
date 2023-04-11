@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Night vision",
+    "description": "As a demon that lives in the night you have permanent night vision.",
+
+    "condition": {
+        "type": "origins:exposed_to_sun",
+        "inverted": true
+    },
+    
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:night_vision 15 1 true"
+    },
+    "interval": 20
+}
